@@ -117,7 +117,7 @@ GUID: `c666479d7f17cda4580134b1990bc056`
 
 | 字段 | 类型 | 绑定目标 |
 |------|------|----------|
-| uploadURL | string | "http://110.40.170.159/upload" |
+| uploadURL | string | "服务器隐私" |
 | asrResultText | TextMeshProUGUI | 语音输出 (与 MemoryGameManager 共用) |
 | recordButton | Button | 录制 按钮 |
 | buttonText | TextMeshProUGUI | 录音 文字 |
@@ -306,10 +306,3 @@ OnRecordButtonPressed():
 
 ---
 
-## 迁移注意事项
-
-1. 音频文件需从原项目 `AZ/0-9audio/` 复制，并在 Inspector 中手动拖入 MemoryGameManager 的 AudioClip 字段
-2. 返回按钮的 ScenesChange 需要设置 sceneName 或在 OnClick 中绑定 SceneChange("MemoryReady")
-3. 确保 AllSettingCtr 单例在主界面场景的 RKCameraRig 上已挂载（DontDestroyOnLoad）
-4. 在 Build Settings 中添加 DigitSpan 和 MemoryReady 场景
-5. ASR 服务器地址: `http://110.40.170.159/upload`

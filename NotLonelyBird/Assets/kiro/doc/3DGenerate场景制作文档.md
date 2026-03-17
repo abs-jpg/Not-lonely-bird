@@ -166,7 +166,7 @@ GUID: `f3e1a662f8d65024bb5a1920ca2959c2`
 | apiKey | string | Tripo API Key（手动填写） |
 | targetUIManager | MonoBehaviour | Tripo_Manager 上的 TripoSimpleUI_Manager (222279800) |
 | screenshotter | DrawingScreenshotter | BordController 上的 DrawingScreenshotter |
-| asrUploadURL | string | "http://110.40.170.159/upload" |
+| asrUploadURL | string | "隐私" |
 
 #### 语音生成流程
 
@@ -348,60 +348,3 @@ Panel (1537883603) 是 PointableUI Canvas 的子节点，包含 Tripo SDK 的全
 
 ---
 
-## 待完成事项
-
-### 1. 创建空物体并挂载脚本
-
-在场景根级创建以下三个空 GameObject：
-
-| 名称 | 脚本 | 说明 |
-|------|------|------|
-| ASRmanager | ExternalInputManager + AudioSource | 语音识别管理器 |
-| BordController | DrawingScreenshotter + ScenesChange | 画板控制器 |
-| GlobalUIManager | GlobalUIManager | UI 总管单例 |
-
-### 2. Inspector 绑定
-
-创建完空物体后，需在 Inspector 中完成以下绑定：
-
-**ExternalInputManager (ASRmanager 上):**
-- `targetUIManager` → Tripo_Manager 上的 TripoSimpleUI_Manager
-- `screenshotter` → BordController 上的 DrawingScreenshotter
-- `apiKey` → 填写 Tripo API Key
-- `asrUploadURL` → `隐私`
-
-**DrawingScreenshotter (BordController 上):**
-- `simpleModel` → SimpleGameObject
-- `progressSlider` → 进度条 Slider（如有）
-
-**GlobalUIManager:**
-- `TripoRuntimeCore` → Tripo_Manager 上的 TripoRuntimeCore
-- `tripoSlider` → 进度条 Slider（如有）
-- `managedUICanvasGroups` → 按需配置
-- `managed3DObjects` → 按需配置
-
-**TripoRuntimeCore.OnModelGenerateComplete:**
-- 添加回调 → BordController 上的 DrawingScreenshotter.ChangeBool()
-
-### 3. 可选扩展
-
-以下功能可根据需要后续添加：
-
-- Board（3D画板）— 挂载第三方 DrawingBoard 脚本
-- Gear（齿轮按钮）— 挂载 CanvasDragHandle，点击打开设置面板
-- BookPro 翻页书 — 多页设置界面
-- 画板面板 UI — 画笔颜色/大小控制
-- Slider 进度条 — 显示生成进度
-- Camera_Position_W — 相机位置标记
-
----
-
-## 迁移注意事项
-
-1. 脚本路径为 `Assets/kiro/Scripts/3DGenerate/`（不是原项目的 `AZ/3DGenerate/Scripts/`）
-2. Tripo SDK 组件（TripoSimpleUI_Manager、TripoRuntimeCore）已由用户手动绑定完成
-3. Panel 内的 Tripo UI 控件（InputField、Button、Dropdown 等）已全部搭建完成
-4. SimpleGameObject 当前无 BoxCollider，DrawingScreenshotter 会在运行时通过 GetComponent 查找
-5. ASR 服务器地址: `隐私`
-6. 确保 AllSettingCtr 单例在主界面场景的 RKCameraRig 上已挂载（DontDestroyOnLoad）
-7. 在 Build Settings 中添加 3DGenerate 场景

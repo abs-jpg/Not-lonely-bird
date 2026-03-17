@@ -253,11 +253,4 @@ GUID: `2bc350ca4d061aa4284be68f689cc26b`
 | 左手掌朝前.png | `e01c20dd9971054438785d2a5eaefaf9` | LL, RL |
 | 右手掌朝前.png | `0bdd211247127d644a4d07b734737d3d` | LR, RR |
 
-## 迁移注意事项
 
-1. Rokid SDK 依赖：需要 PointableUI、RKCameraRig、[RKInput] Prefab
-2. 手势检测使用运行时反射，无 SDK 时自动降级为键盘输入 (A=左, D=右)
-3. MianP 整体 Scale 为 0.5，所有子元素实际显示尺寸需乘以 0.5
-4. 音效字段（gameStartSound, correctSound, incorrectSound）均未赋值，需手动绑定
-5. AllSettingCtr 是 DontDestroyOnLoad 单例，需在之前的场景中已创建
-6. RVPSettlementScreen 与 RVP 场景共用，通过 levelKey 区分数据

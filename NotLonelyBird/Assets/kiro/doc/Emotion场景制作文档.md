@@ -303,11 +303,3 @@ GUID: `2bc350ca4d061aa4284be68f689cc26b`
 | 850701935 | [RKInput] PrefabInstance |
 | 850702340 | RKCameraRig PrefabInstance |
 
-## 迁移注意事项
-
-1. 星星 Prefab 的 stripped 引用使用了假设的内部 fileID（root GO: 4890437008498998498, root Transform: 4890437008498998499, Animator: 6383292346002489667）。如果这些 ID 与实际 Prefab 不匹配，Unity 将无法解析引用，需要在 Inspector 中手动重新绑定 `characterModel` 和 `modelAnimator`。
-2. Animator Controller 需要包含 smiling、sad、angry、fear 四个动画状态和 DoIdle 触发器，否则动画不会播放。
-3. angGirl 为备用模型，默认隐藏 (IsActive=0)，如需切换角色可在脚本中修改 characterModel 引用。
-4. AllSettingCtr 是 DontDestroyOnLoad 单例，需在之前的场景（主界面）中已创建。
-5. RVPSettlementScreen 与 RVP、Direction 场景共用，通过 levelKey 区分数据。
-6. 返回按钮跳转到 "Main" 场景（主界面）。
