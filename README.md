@@ -1,8 +1,6 @@
 ---
 
-<div align="center">
-
-# 🐦 不孤鸟 NotLonelyBird
+## 🐦 不孤鸟 NotLonelyBird
 
 **基于 AR 技术的儿童认知干预训练系统**
 
@@ -293,7 +291,6 @@ Load (启动页)
 ---
 
 <img width="2560" height="1392" alt="14a8715f2dc6245e13b09466af69498f" src="https://github.com/user-attachments/assets/10f1eba0-a212-44e4-90ff-915442684cc7" />
-<img width="2560" height="1392" alt="14a8715f2dc6245e13b09466af69498f" src="https://github.com/user-attachments/assets/10f1eba0-a212-44e4-90ff-915442684cc7" />
 
 <img width="657" height="463" alt="image" src="https://github.com/user-attachments/assets/ecfe20e7-c1be-4f40-9a8d-766df5422b13" />
-<img width="657" height="463" alt="image" src="https://github.com/user-attachments/assets/ecfe20e7-c1be-4f40-9a8d-766df5422b13" />
+
