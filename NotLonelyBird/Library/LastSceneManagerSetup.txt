@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/kiro/NBack.unity
+- path: Assets/kiro/RuntimeExampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

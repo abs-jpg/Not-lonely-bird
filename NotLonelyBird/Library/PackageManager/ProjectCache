@@ -5,20 +5,34 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639092600482953273
-    m_Hash: 2329539899
+      ticks: 639093637529187849
+    m_Hash: 2024058901
   m_LockFileStatus:
     m_FilePath: H:/Not-lonely-bird/NotLonelyBird/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639092600482969849
-    m_Hash: 3519499956
+      ticks: 639093637529242007
+    m_Hash: 2682285175
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
+  m_LocalFileStatus:
+  - m_FilePath: G:\GitHub\Hangul-EX\Packages\com.unity.vast.tripoforunity@1.1.0/package.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638926537180000000
+    m_Hash: 596385888
+  - m_FilePath: G:\GitHub\Hangul-EX\Packages\com.unity.vast.tripoforunity@1.1.0
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
 m_ProjectPath: H:/Not-lonely-bird/NotLonelyBird/Packages
 m_EditorVersion: 2022.3.56f1c1 (bb6410cfcc53)
 m_ResolvedPackages:
@@ -123,7 +137,7 @@ m_ResolvedPackages:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.1
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   - name: com.unity.modules.unityanalytics
@@ -439,6 +453,182 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
+- packageId: com.unity.shadergraph@14.0.11
+  testable: 0
+  isDirectDependency: 1
+  version: 14.0.11
+  source: 2
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.shadergraph@14.0.11
+  assetPath: Packages/com.unity.shadergraph
+  name: com.unity.shadergraph
+  displayName: Shader Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Shader Graph package adds a visual Shader editing tool to Unity.
+    You can use this tool to create Shaders in a visual way instead of writing code.
+    Specific render pipelines can implement specific graph features. Currently, both
+    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
+    Shader Graph.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.8
+    - 0.1.9
+    - 0.1.17
+    - 1.0.0-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.3-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.6-preview
+    - 1.1.8-preview
+    - 1.1.9-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.14
+    - 9.0.0-preview.34
+    - 9.0.0-preview.55
+    - 9.0.0-preview.72
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.11
+    compatible:
+    - 14.0.11
+    recommended: 14.0.11
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 14.0.11
+  - name: com.unity.searcher
+    version: 4.9.2
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 14.0.11
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.searcher
+    version: 4.9.2
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 14.0.11
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.textmeshpro@3.0.7
   testable: 0
   isDirectDependency: 1
@@ -478,10 +668,128 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.2
+    - 1.0.21
+    - 1.0.23
+    - 1.0.25
+    - 1.0.26
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-preview
+    - 1.3.0
+    - 1.4.0-preview.1b
+    - 1.4.0-preview.2a
+    - 1.4.0-preview.3a
+    - 1.4.0
+    - 1.4.1-preview.1
+    - 1.4.1
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 1.5.0-preview.8
+    - 1.5.0-preview.10
+    - 1.5.0-preview.11
+    - 1.5.0-preview.12
+    - 1.5.0-preview.13
+    - 1.5.0-preview.14
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.6.0-preview.1
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.1
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.1.0-preview.8
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 2.1.0-preview.12
+    - 2.1.0-preview.13
+    - 2.1.0-preview.14
+    - 2.1.0
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 3.0.0-preview.1
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.5
+    - 3.0.0-preview.7
+    - 3.0.0-preview.8
+    - 3.0.0-preview.10
+    - 3.0.0-preview.11
+    - 3.0.0-preview.12
+    - 3.0.0-preview.13
+    - 3.0.0-preview.14
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
     - 3.0.7
+    - 3.0.8
+    - 3.0.9
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
+    - 3.2.0-pre.7
+    - 3.2.0-pre.8
+    - 3.2.0-pre.9
+    - 3.2.0-pre.10
+    - 3.2.0-pre.11
+    - 3.2.0-pre.12
+    - 3.2.0-pre.13
+    - 3.2.0-pre.14
+    - 3.2.0-pre.15
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.7
-    recommended: 3.0.7
+    - 3.0.8
+    - 3.0.9
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
+    - 3.2.0-pre.7
+    - 3.2.0-pre.8
+    - 3.2.0-pre.9
+    - 3.2.0-pre.10
+    - 3.2.0-pre.11
+    - 3.2.0-pre.12
+    - 3.2.0-pre.13
+    - 3.2.0-pre.14
+    - 3.2.0-pre.15
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    recommended: 3.0.9
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -509,7 +817,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638410382150000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
@@ -547,10 +855,113 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.9
+    - 1.2.10
+    - 1.2.11
+    - 1.2.12
+    - 1.2.13
+    - 1.2.14
+    - 1.2.15
+    - 1.2.16
+    - 1.2.17
+    - 1.2.18
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.5
+    - 1.4.0-preview.6
+    - 1.4.0-preview.7
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.5.0-pre.2
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.1-pre.1
+    - 1.5.1-pre.2
+    - 1.5.1-pre.3
+    - 1.5.2
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.5.7
+    - 1.6.0-pre.1
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0-pre.5
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.6.5
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.7.5
     - 1.7.6
+    - 1.7.7
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    - 1.8.6
+    - 1.8.7
+    - 1.8.8
+    - 1.8.9
+    - 1.8.10
+    - 1.8.11
     compatible:
     - 1.7.6
-    recommended: 1.7.6
+    - 1.7.7
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    - 1.8.6
+    - 1.8.7
+    - 1.8.8
+    - 1.8.9
+    - 1.8.10
+    - 1.8.11
+    recommended: 1.7.7
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -586,7 +997,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638326112840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
@@ -596,6 +1007,169 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.7.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.toonshader@0.12.0-preview
+  testable: 0
+  isDirectDependency: 1
+  version: 0.12.0-preview
+  source: 1
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.toonshader@0.12.0-preview
+  assetPath: Packages/com.unity.toonshader
+  name: com.unity.toonshader
+  displayName: Unity Toon Shader
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Unity Toon Shader (Unity-Chan Toon Shader 3) is a toon shader for
+    images and video that is designed to meet the needs of creators working on cel-shaded
+    3DCG animations.
+
+    Unlike other pre-render toon shaders, all features can
+    be adjusted in real time on Unity, which is the greatest feature of UTS.
+
+
+    UTS
+    has great power and makes a wide variety of character designs possible, from
+    cel-shaded to light novel illustration styles.
+
+
+    UTS has the 3 basic layers
+    of Base Color, 1st Shade Color, and 2nd Shade Color, colors and textures can
+    also accept a wide variety of customization options, such as High Color, Rim
+    Light, MatCap (sphere mapping), and Emissive (light emission).The level of gradation
+    (feather) between colors can also be adjusted in Unity in real-time.
+
+
+    More
+    precisely, View documentation above.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.6.1-preview
+    - 0.7.0-preview
+    - 0.7.2-preview
+    - 0.7.3-preview
+    - 0.7.4-preview
+    - 0.7.5-preview
+    - 0.7.6-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.8.2-preview
+    - 0.8.3-preview
+    - 0.8.4-preview
+    - 0.8.5-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 0.9.7-preview
+    - 0.10.0-preview
+    - 0.10.1-preview
+    - 0.10.2-preview
+    - 0.11.0-preview
+    - 0.11.1-preview
+    - 0.12.0-preview
+    - 0.13.0-preview
+    - 0.13.1-preview
+    - 0.13.4-preview
+    compatible:
+    - 0.6.1-preview
+    - 0.7.0-preview
+    - 0.7.2-preview
+    - 0.7.3-preview
+    - 0.7.4-preview
+    - 0.7.5-preview
+    - 0.7.6-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.8.2-preview
+    - 0.8.3-preview
+    - 0.8.4-preview
+    - 0.8.5-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 0.9.7-preview
+    - 0.10.0-preview
+    - 0.10.1-preview
+    - 0.10.2-preview
+    - 0.11.0-preview
+    - 0.11.1-preview
+    - 0.12.0-preview
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 10.0.0
+  - name: com.unity.film-internal-utilities
+    version: 0.19.2-preview
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 14.0.11
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.film-internal-utilities
+    version: 0.19.2-preview
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.timeline
+    version: 1.7.6
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638893557310000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.toonshader@0.12/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.toonshader.git
+    revision: d431004bedd3f1755aea153779520fd31e4cb7ae
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -627,6 +1201,9 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -704,11 +1281,46 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
+    - 1.7.7
+    - 1.7.8
+    - 1.8.0-pre.1
+    - 1.8.0
+    - 1.9.0
+    - 1.9.1
+    - 1.9.2
     - 1.9.4
+    - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
+    - 1.9.9
+    - 1.9.10
+    - 1.9.11
     compatible:
     - 1.9.4
-    recommended: 1.9.4
-    deprecated: []
+    - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
+    - 1.9.9
+    - 1.9.10
+    - 1.9.11
+    recommended: 1.9.11
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -734,7 +1346,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638488567680000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -898,6 +1510,121 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.14.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.vastai3d.vast.tripoforunity@file:G:\GitHub\Hangul-EX\Packages\com.unity.vast.tripoforunity@1.1.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.0
+  source: 4
+  resolvedPath: G:\GitHub\Hangul-EX\Packages\com.unity.vast.tripoforunity@1.1.0
+  assetPath: Packages/com.vastai3d.vast.tripoforunity
+  name: com.vastai3d.vast.tripoforunity
+  displayName: Tripo for Unity
+  author:
+    name: VAST
+    email: support@tripo3d.ai
+    url: https://www.tripo3d.ai/
+  category: 
+  type: library
+  description: "The Tripo's Plugin for Unity provides a seamless integration of Tripo3D\u2019s
+    powerful features directly into the Unity development environment. This plugin
+    enables Unity developers and creators to effortlessly utilize Tripo3D\u2019s
+    tools, including text-to-model generation and image-to-model generation, for
+    a variety of applications in 3D content creation and game development."
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.cloud.gltfast
+    version: 6.8.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.collections
+    version: 1.5.1
+  resolvedDependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.cloud.gltfast
+    version: 6.8.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.collections
+    version: 1.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  keywords:
+  - Tripo
+  - 3D-Model
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://platform.tripo3d.ai
+    revision: ----
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2838,6 +3565,714 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
+- packageId: com.unity.editorcoroutines@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 1
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  assetPath: Packages/com.unity.editorcoroutines
+  name: com.unity.editorcoroutines
+  displayName: Editor Coroutines
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'The editor coroutines package allows developers to start constructs
+    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
+    objects. '
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.1-preview.3
+    - 0.0.1-preview.4
+    - 0.0.1-preview.5
+    - 0.0.2-preview.1
+    - 0.1.0-preview.1
+    - 0.1.0-preview.2
+    - 1.0.0
+    - 1.0.1
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - coroutine
+  - coroutines
+  - editor
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637232611380000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.cloud.gltfast@6.8.0
+  testable: 0
+  isDirectDependency: 0
+  version: 6.8.0
+  source: 1
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.cloud.gltfast@6.8.0
+  assetPath: Packages/com.unity.cloud.gltfast
+  name: com.unity.cloud.gltfast
+  displayName: Unity glTFast
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: Use glTFast to import and export glTF 3D files efficiently at runtime
+    or in the Editor
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 5.0.4
+    - 5.2.0-pre.2
+    - 5.2.0
+    - 6.0.0-pre.2
+    - 6.0.0
+    - 6.0.1
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+    - 6.7.0
+    - 6.7.1
+    - 6.8.0
+    - 6.9.0
+    - 6.9.1
+    - 6.10.0
+    - 6.10.1
+    - 6.10.2
+    - 6.10.3
+    - 6.11.0
+    - 6.12.0
+    - 6.12.1
+    - 6.13.0
+    - 6.13.1
+    - 6.14.0
+    - 6.14.1
+    - 6.15.0
+    - 6.15.1
+    - 6.16.0
+    - 6.16.1
+    compatible:
+    - 5.0.4
+    - 5.2.0-pre.2
+    - 5.2.0
+    - 6.0.0-pre.2
+    - 6.0.0
+    - 6.0.1
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+    - 6.7.0
+    - 6.7.1
+    - 6.8.0
+    - 6.9.0
+    - 6.9.1
+    - 6.10.0
+    - 6.10.1
+    - 6.10.2
+    - 6.10.3
+    - 6.11.0
+    - 6.12.0
+    - 6.12.1
+    - 6.13.0
+    - 6.13.1
+    - 6.14.0
+    - 6.14.1
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.collections
+    version: 1.5.1
+  resolvedDependencies:
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.collections
+    version: 1.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - mesh
+  - gltf
+  - asset
+  - format
+  - draco
+  - ktx
+  - basis
+  - universal
+  - basisu
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638612183320000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git@github.cds.internal.unity3d.com:unity/com.unity.cloud.gltfast.src.git
+    revision: 64f3257d9354fd61e8a9232690648cc2f1d4b941
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.mathematics@1.3.1
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.1
+  source: 1
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.mathematics@1.3.1
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    compatible:
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    recommended: 1.2.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638265749150000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: c4f37031a75eb8afb8dfaf5d68fbcce226c70749
+    path: 
+  unityLifecycle:
+    version: 1.2.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.burst@1.8.18
+  testable: 0
+  isDirectDependency: 0
+  version: 1.8.18
+  source: 1
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.burst@1.8.18
+  assetPath: Packages/com.unity.burst
+  name: com.unity.burst
+  displayName: Burst
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Burst is a compiler that translates from IL/.NET bytecode to highly
+    optimized native code using LLVM.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.4-preview.5
+    - 0.2.4-preview.7
+    - 0.2.4-preview.11
+    - 0.2.4-preview.12
+    - 0.2.4-preview.13
+    - 0.2.4-preview.14
+    - 0.2.4-preview.15
+    - 0.2.4-preview.16
+    - 0.2.4-preview.17
+    - 0.2.4-preview.18
+    - 0.2.4-preview.19
+    - 0.2.4-preview.20
+    - 0.2.4-preview.21
+    - 0.2.4-preview.22
+    - 0.2.4-preview.23
+    - 0.2.4-preview.24
+    - 0.2.4-preview.25
+    - 0.2.4-preview.30
+    - 0.2.4-preview.31
+    - 0.2.4-preview.33
+    - 0.2.4-preview.34
+    - 0.2.4-preview.37
+    - 0.2.4-preview.41
+    - 0.2.4-preview.45
+    - 0.2.4-preview.48
+    - 0.2.4-preview.50
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.5
+    - 1.2.0-preview.6
+    - 1.2.0-preview.8
+    - 1.2.0-preview.9
+    - 1.2.0-preview.10
+    - 1.2.0-preview.11
+    - 1.2.0-preview.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.3.0-preview.1
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.4
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0-preview.8
+    - 1.3.0-preview.9
+    - 1.3.0-preview.10
+    - 1.3.0-preview.11
+    - 1.3.0-preview.12
+    - 1.3.0-preview.13
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0-pre.1
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.4
+    - 1.4.0-preview.5
+    - 1.4.1-pre.1
+    - 1.4.1-pre.2
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4-preview.1
+    - 1.4.4-preview.2
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.11
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6-preview.1
+    - 1.5.6
+    - 1.6.0-pre.2
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.6.5
+    - 1.6.6
+    - 1.7.0-pre.1
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.7
+    - 1.8.8
+    - 1.8.9
+    - 1.8.10
+    - 1.8.11
+    - 1.8.12
+    - 1.8.13
+    - 1.8.14
+    - 1.8.15
+    - 1.8.16
+    - 1.8.17
+    - 1.8.18
+    - 1.8.19
+    - 1.8.20
+    - 1.8.21
+    - 1.8.22
+    - 1.8.23
+    - 1.8.24
+    - 1.8.25
+    - 1.8.26
+    - 1.8.27
+    - 1.8.28
+    compatible:
+    - 1.8.18
+    - 1.8.19
+    - 1.8.20
+    - 1.8.21
+    - 1.8.22
+    - 1.8.23
+    - 1.8.24
+    - 1.8.25
+    - 1.8.26
+    - 1.8.27
+    - 1.8.28
+    recommended: 1.8.28
+    deprecated: []
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638622972680000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/burst.git
+    revision: 594a8d8794083be96fa510b2deea0954f971ecc9
+    path: 
+  unityLifecycle:
+    version: 1.8.18
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.collections@1.5.1
+  testable: 0
+  isDirectDependency: 0
+  version: 1.5.1
+  source: 1
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.collections@1.5.1
+  assetPath: Packages/com.unity.collections
+  name: com.unity.collections
+  displayName: Collections
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A C# collections library providing data structures that can be used
+    in jobs, and optimized by Burst compiler.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.9-preview.1
+    - 0.0.9-preview.2
+    - 0.0.9-preview.3
+    - 0.0.9-preview.4
+    - 0.0.9-preview.5
+    - 0.0.9-preview.6
+    - 0.0.9-preview.7
+    - 0.0.9-preview.8
+    - 0.0.9-preview.9
+    - 0.0.9-preview.10
+    - 0.0.9-preview.11
+    - 0.0.9-preview.12
+    - 0.0.9-preview.13
+    - 0.0.9-preview.14
+    - 0.0.9-preview.15
+    - 0.0.9-preview.16
+    - 0.0.9-preview.17
+    - 0.0.9-preview.18
+    - 0.0.9-preview.19
+    - 0.0.9-preview.20
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.13
+    - 0.3.0-preview.0
+    - 0.4.0-preview.6
+    - 0.5.0-preview.9
+    - 0.5.1-preview.11
+    - 0.5.2-preview.8
+    - 0.6.0-preview.9
+    - 0.7.0-preview.2
+    - 0.7.1-preview.3
+    - 0.8.0-preview.5
+    - 0.9.0-preview.5
+    - 0.9.0-preview.6
+    - 0.11.0-preview.17
+    - 0.12.0-preview.13
+    - 0.14.0-preview.16
+    - 0.15.0-preview.21
+    - 0.17.0-preview.18
+    - 1.0.0-pre.3
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.1.0
+    - 1.2.3-pre.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 1.5.2
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.5.0-exp.1
+    - 2.5.0-pre.2
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.7
+    - 2.6.0-exp.2
+    - 2.6.0-pre.3
+    - 2.6.0-pre.4
+    - 2.6.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
+    compatible:
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 1.5.2
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.5.0-exp.1
+    - 2.5.0-pre.2
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.7
+    - 2.6.0-exp.2
+    - 2.6.0-pre.3
+    - 2.6.0-pre.4
+    - 2.6.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
+    recommended: 2.5.7
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.6.6
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.1.31
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - dots
+  - collections
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638259957260000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@1.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 5f2d802d0087e92818f1463b9b910916a079012b
+    path: 
+  unityLifecycle:
+    version: 1.2.4
+    nextVersion: 
+    recommendedVersion: 2.5.1
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.inputsystem@1.11.2
   testable: 0
   isDirectDependency: 0
@@ -2859,9 +4294,81 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.5.0
+    - 1.5.1
+    - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.0
+    - 1.11.0
+    - 1.11.1
     - 1.11.2
+    - 1.12.0
+    - 1.13.0
+    - 1.13.1
+    - 1.14.0
+    - 1.14.1
+    - 1.14.2
+    - 1.15.0
+    - 1.16.0
+    - 1.17.0
+    - 1.18.0
+    - 1.19.0
     compatible:
     - 1.11.2
+    - 1.12.0
+    - 1.13.0
+    - 1.13.1
+    - 1.14.0
+    - 1.14.1
+    - 1.14.2
+    - 1.15.0
+    - 1.16.0
+    - 1.17.0
+    - 1.18.0
+    - 1.19.0
     recommended: 1.11.2
     deprecated: []
   dependencies:
@@ -2895,7 +4402,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638648557300000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/index.html
   hasRepository: 1
   repository:
@@ -2939,10 +4446,41 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
+    - 2.4.0
+    - 2.5.0
     - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.6.0-pre.1
+    - 2.6.0-pre.2
     compatible:
     - 2.5.1
-    recommended: 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.6.0-pre.1
+    - 2.6.0-pre.2
+    recommended: 2.5.3
     deprecated: []
   dependencies:
   - name: com.unity.modules.xr
@@ -2974,7 +4512,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638712986410000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.5/manual/index.html
   hasRepository: 1
   repository:
@@ -3016,10 +4554,43 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
     - 2.1.11
+    - 2.1.12
+    - 2.1.13
+    - 3.0.0
+    - 3.0.1
     compatible:
     - 2.1.11
-    recommended: 2.1.11
+    - 2.1.12
+    - 2.1.13
+    - 3.0.0
+    - 3.0.1
+    recommended: 2.1.13
     deprecated: []
   dependencies:
   - name: com.unity.modules.vr
@@ -3053,7 +4624,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638627703200000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
   hasRepository: 1
   repository:
@@ -3063,6 +4634,425 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 2.1.11
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.render-pipelines.core@14.0.11
+  testable: 0
+  isDirectDependency: 0
+  version: 14.0.11
+  source: 2
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.render-pipelines.core@14.0.11
+  assetPath: Packages/com.unity.render-pipelines.core
+  name: com.unity.render-pipelines.core
+  displayName: Core RP Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: SRP Core makes it easier to create or customize a Scriptable Render
+    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
+    working with platform-specific graphics APIs, utility functions for common rendering
+    operations, and  shader libraries. The code in SRP Core is use by the High Definition
+    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
+    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
+    save you time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.21
+    - 0.1.27
+    - 0.1.28
+    - 1.0.0-beta
+    - 1.0.1-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.8-preview
+    - 1.1.10-preview
+    - 1.1.11-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.35
+    - 9.0.0-preview.38
+    - 9.0.0-preview.60
+    - 9.0.0-preview.77
+    - 10.0.0-preview.30
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.11
+    compatible:
+    - 14.0.11
+    recommended: 14.0.11
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 14.0.11
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.film-internal-utilities@0.19.2-preview
+  testable: 0
+  isDirectDependency: 0
+  version: 0.19.2-preview
+  source: 1
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.film-internal-utilities@0.19.2-preview
+  assetPath: Packages/com.unity.film-internal-utilities
+  name: com.unity.film-internal-utilities
+  displayName: Film Internal Utilities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A package containing internal utility functions to support the development
+    of film packages/modules for Unity
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.5.1-preview
+    - 0.6.0-preview
+    - 0.7.0-preview
+    - 0.7.1-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.8.2-preview
+    - 0.8.3-preview
+    - 0.8.4-preview
+    - 0.9.0-preview
+    - 0.10.0-preview
+    - 0.10.1-preview
+    - 0.10.2-preview
+    - 0.11.0-preview
+    - 0.11.1-preview
+    - 0.12.0-preview
+    - 0.12.1-preview
+    - 0.12.2-preview
+    - 0.12.3-preview
+    - 0.12.4-preview
+    - 0.12.5-preview
+    - 0.13.0-preview
+    - 0.14.0-preview
+    - 0.14.1-preview
+    - 0.14.2-preview
+    - 0.15.0-preview
+    - 0.15.1-preview
+    - 0.15.2-preview
+    - 0.16.0-preview
+    - 0.16.1-preview
+    - 0.16.2-preview
+    - 0.16.3-preview
+    - 0.16.4-preview
+    - 0.17.0-preview
+    - 0.18.0-preview
+    - 0.18.1-preview
+    - 0.18.2-preview
+    - 0.18.3-preview
+    - 0.18.4-preview
+    - 0.19.0-preview
+    - 0.19.1-preview
+    - 0.19.2-preview
+    - 0.19.3-preview
+    - 0.20.0-preview
+    compatible:
+    - 0.5.1-preview
+    - 0.6.0-preview
+    - 0.7.0-preview
+    - 0.7.1-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.8.2-preview
+    - 0.8.3-preview
+    - 0.8.4-preview
+    - 0.9.0-preview
+    - 0.10.0-preview
+    - 0.10.1-preview
+    - 0.10.2-preview
+    - 0.11.0-preview
+    - 0.11.1-preview
+    - 0.12.0-preview
+    - 0.12.1-preview
+    - 0.12.2-preview
+    - 0.12.3-preview
+    - 0.12.4-preview
+    - 0.12.5-preview
+    - 0.13.0-preview
+    - 0.14.0-preview
+    - 0.14.1-preview
+    - 0.14.2-preview
+    - 0.15.0-preview
+    - 0.15.1-preview
+    - 0.15.2-preview
+    - 0.16.0-preview
+    - 0.16.1-preview
+    - 0.16.2-preview
+    - 0.16.3-preview
+    - 0.16.4-preview
+    - 0.17.0-preview
+    - 0.18.0-preview
+    - 0.18.1-preview
+    - 0.18.2-preview
+    - 0.18.3-preview
+    - 0.18.4-preview
+    - 0.19.0-preview
+    - 0.19.1-preview
+    - 0.19.2-preview
+    - 0.19.3-preview
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.timeline
+    version: 1.2.18
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.timeline
+    version: 1.7.6
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638296560020000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.film-internal-utilities@0.19/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/AnimeSolution.git
+    revision: 9884ce80e704ae4f1429b1dc9a620230dc9e48b0
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.searcher@4.9.2
+  testable: 0
+  isDirectDependency: 0
+  version: 4.9.2
+  source: 1
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.searcher@4.9.2
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
+    compatible:
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
+    recommended: 4.9.4
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637831252240000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
+    path: 
+  unityLifecycle:
+    version: 4.9.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3092,10 +5082,41 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 2.0.8
+    - 2.0.9
+    - 2.0.11
+    - 2.0.12
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
+    - 2.0.18
+    - 2.0.20
+    - 2.0.21
     - 2.0.22
+    - 2.0.23
+    - 2.0.25
+    - 2.0.26
+    - 2.0.27
     compatible:
     - 2.0.22
-    recommended: 2.0.22
+    - 2.0.23
+    - 2.0.25
+    - 2.0.26
+    - 2.0.27
+    recommended: 2.0.27
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -3120,7 +5141,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -3159,10 +5180,63 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.6
+    - 1.0.8
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2-preview.2
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4
+    - 1.2.0-preview
+    - 1.2.1
+    - 2.0.0-preview
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
+    - 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
+    - 3.0.26
+    - 3.0.27
+    - 3.0.28
+    - 3.0.31
     - 3.0.34
+    - 3.0.35
+    - 3.0.36
+    - 3.0.37
+    - 3.0.38
+    - 3.0.39
     compatible:
     - 3.0.34
-    recommended: 3.0.34
+    - 3.0.35
+    - 3.0.36
+    - 3.0.37
+    - 3.0.38
+    - 3.0.39
+    recommended: 3.0.39
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -3181,7 +5255,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638651995650000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
@@ -3220,6 +5294,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.7
+    - 1.1.0
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
     - 1.2.5
     compatible:
     - 1.2.5
@@ -3238,7 +5324,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637800255360000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3248,66 +5334,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.5
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.editorcoroutines@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 1
-  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.editorcoroutines@1.0.0
-  assetPath: Packages/com.unity.editorcoroutines
-  name: com.unity.editorcoroutines
-  displayName: Editor Coroutines
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'The editor coroutines package allows developers to start constructs
-    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
-    objects. '
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - coroutine
-  - coroutines
-  - editor
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.cn
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
-    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
-    path: 
-  unityLifecycle:
-    version: 1.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3339,10 +5365,34 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.4.0-preview.3
+    - 0.4.0-preview.5
+    - 0.4.0-preview.6
+    - 0.5.0-preview.1
+    - 0.6.0-preview.1
+    - 0.7.0-preview.4
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.1.0-pre.2
+    - 1.1.0
+    - 1.1.1
+    - 1.2.2
     - 1.2.3
+    - 1.2.4
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
     compatible:
     - 1.2.3
-    recommended: 1.2.3
+    - 1.2.4
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    recommended: 1.2.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3357,7 +5407,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638711255320000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
   hasRepository: 1
   repository:
@@ -3394,9 +5444,82 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.4-preview
+    - 0.0.29-preview
+    - 1.0.0
+    - 1.0.7
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.13
+    - 1.0.14
+    - 1.0.16
+    - 1.0.17
+    - 1.0.18
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.5
+    - 1.1.8
+    - 1.1.9
+    - 1.1.11
+    - 1.1.13
+    - 1.1.14
+    - 1.1.16
+    - 1.1.18
+    - 1.1.19
+    - 1.1.20
+    - 1.1.22
+    - 1.1.24
+    - 1.1.26
+    - 1.1.27
+    - 1.1.29
+    - 1.1.30
+    - 1.1.31
     - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
     - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     recommended: 1.1.33
     deprecated: []
   dependencies:
@@ -3426,7 +5549,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3466,10 +5589,45 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.3.0-preview
+    - 0.3.1-preview
+    - 0.4.0-preview
+    - 0.4.1-preview
+    - 0.4.2-preview
+    - 0.4.3-preview
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0-exp.1
+    - 1.2.0-exp.2
+    - 1.2.0-exp.3
+    - 1.2.0-exp.4
+    - 1.2.0-exp.5
+    - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
     - 1.2.6
+    - 1.2.7
+    - 1.3.0
     compatible:
     - 1.2.6
-    recommended: 1.2.6
+    - 1.2.7
+    - 1.3.0
+    recommended: 1.2.7
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -3502,7 +5660,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638575857900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
@@ -3603,7 +5761,7 @@ m_ResolvedPackages:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.1
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   - name: com.unity.modules.unityanalytics
@@ -3676,10 +5834,90 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
     - 3.2.1
+    - 3.2.2
     compatible:
     - 3.2.1
-    recommended: 3.2.1
+    - 3.2.2
+    recommended: 3.2.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638186318800000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
+    path: 
+  unityLifecycle:
+    version: 3.2.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.nuget.mono-cecil@1.11.4
+  testable: 0
+  isDirectDependency: 0
+  version: 1.11.4
+  source: 1
+  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4
+  assetPath: Packages/com.unity.nuget.mono-cecil
+  name: com.unity.nuget.mono-cecil
+  displayName: Mono Cecil
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+
+
+    This
+    package is intended for internal Unity use only. Most Unity users will be better
+    suite using the existing community tooling.
+
+    To avoid assembly clashes, please
+    use this package if you intend to use Mono.Cecil.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.11.4
+    compatible:
+    - 1.11.4
+    recommended: 1.11.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3699,11 +5937,11 @@ m_ResolvedPackages:
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: d8e49aef8979bef617144382052ec2f479645eaf
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
+    revision: d0133ce672d724694b56bfd20672acf6f8737fec
     path: 
   unityLifecycle:
-    version: 3.2.1
+    version: 1.11.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3732,9 +5970,20 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
     - 2.0.1
+    - 2.1.0
+    - 2.1.1
     compatible:
     - 2.0.1
+    - 2.1.0
+    - 2.1.1
     recommended: 2.0.1
     deprecated: []
   dependencies: []
@@ -3750,7 +5999,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637744099390000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3788,9 +6037,22 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
+    - 1.0.5
     - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
     recommended: 1.0.6
     deprecated: []
   dependencies: []
@@ -3809,7 +6071,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637429759280000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3851,10 +6113,166 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.12
+    - 1.0.0-preview.13
+    - 1.0.0-preview.14
+    - 1.0.0-preview.17
+    - 1.0.0-preview.18
+    - 1.0.0-preview.19
+    - 1.0.0-preview.20
+    - 1.0.0-preview.22
+    - 1.1.0-preview.6
+    - 1.5.0-preview.2
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 2.0.2
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.8
+    - 2.1.10
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.6
+    - 3.0.1
+    - 3.1.0-preview.1
+    - 3.1.0-preview.3
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.2
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
+    - 5.1.0-pre.10
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
     - 5.1.5
+    - 5.1.6
+    - 5.2.0
+    - 5.2.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.1.0-pre.1
+    - 6.1.0-pre.2
+    - 6.1.0-pre.3
+    - 6.1.0-pre.4
+    - 6.1.0-pre.5
+    - 6.1.0
+    - 6.1.1
+    - 6.2.0-pre.1
+    - 6.2.0-pre.2
+    - 6.2.0-pre.3
+    - 6.2.0-pre.4
+    - 6.2.0
+    - 6.2.1
+    - 6.3.0-pre.1
+    - 6.3.0-pre.2
+    - 6.3.0
+    - 6.3.1
+    - 6.3.2
+    - 6.3.3
+    - 6.4.0-pre.1
+    - 6.4.0
+    - 6.4.1
+    - 6.5.0-pre.1
+    - 6.5.0-pre.2
     compatible:
     - 5.1.5
-    recommended: 5.1.5
+    - 5.1.6
+    - 5.2.0
+    - 5.2.2
+    recommended: 5.1.6
     deprecated: []
   dependencies:
   - name: com.unity.editorcoroutines
@@ -3907,7 +6325,7 @@ m_ResolvedPackages:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.1
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   - name: com.unity.modules.unityanalytics
@@ -3936,7 +6354,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638549067320000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html
   hasRepository: 1
   repository:
@@ -4150,6 +6568,7 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.8.0-pre.1
     compatible:
     - 1.4.0
     - 1.4.1
@@ -4172,6 +6591,7 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.8.0-pre.1
     recommended: 1.4.3
     deprecated: []
   dependencies:
@@ -4211,7 +6631,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.11
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.1
   keywords:
   - xr
   - vr
@@ -4404,7 +6824,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.1
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.xr.core-utils
@@ -4442,63 +6862,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 2.6.3
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.mathematics@1.2.6
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.6
-  source: 1
-  resolvedPath: H:\Not-lonely-bird\NotLonelyBird\Library\PackageCache\com.unity.mathematics@1.2.6
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.2.6
-    compatible:
-    - 1.2.6
-    recommended: 1.2.6
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.cn
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: f110c8c230d253654afed153569030a587cc7557
-    path: 
-  unityLifecycle:
-    version: 1.2.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
