@@ -1,4 +1,8 @@
 ---
+title: 🐦 不孤鸟 NotLonelyBird
+description: An AR-based Cognitive Intervention Training System for Children
+tags: [Unity, C#, AR]
+---
 
 ## 🐦 不孤鸟 NotLonelyBird
 
@@ -13,8 +17,6 @@
 ![AI Assisted](https://img.shields.io/badge/AI%20Assisted-Kiro-purple)
 
 </div>
-
----
 
 ## 📖 项目简介
 
