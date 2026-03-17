@@ -1,7 +1,7 @@
 ---
 title: 🐦 不孤鸟 NotLonelyBird
 description: An AR-based Cognitive Intervention Training System for Children
-repository：(https://github.com/abs-jpg/Not-lonely-bird.git)
+repository: https://github.com/abs-jpg/Not-lonely-bird.git
 tags: [Unity, C#, AR]
 ---
 
