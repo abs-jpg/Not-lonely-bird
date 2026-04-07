@@ -1,13 +1,13 @@
 ---
 title: 🐦 不孤鸟 NotLonelyBird
-description: An AR-based Cognitive Intervention Training System for Children
+description: An AR-based Cognitive Intervention Training System for Autistic Children
 repository: https://github.com/abs-jpg/Not-lonely-bird.git
 tags: [Unity, C#, AR]
 ---
 
 ## 🐦 不孤鸟 NotLonelyBird
 
-**基于 AR 技术的儿童认知干预训练系统**
+**基于 AR 技术的自闭症儿童认知干预训练系统**
 
 *An AR-based Cognitive Intervention Training System for Children*
 
@@ -21,7 +21,7 @@ tags: [Unity, C#, AR]
 
 ## 📖 项目简介
 
-"不孤鸟"是一款运行于 **Rokid XR 眼镜**平台的 6DoF AR 应用，面向儿童认知干预训练。系统基于剑桥 **CANTAB 神经心理学范式**，结合 Rokid 手势识别、千问 ASR 语音识别和 Tripo AI 3D 生成技术，提供沉浸式的全感官统合训练体验。
+"不孤鸟"是一款运行于 **Rokid XR 眼镜**平台的 6DoF AR 应用，面向自闭症儿童认知干预训练。系统基于剑桥 **CANTAB 神经心理学范式**，结合 Rokid 手势识别、千问 ASR 语音识别和 Tripo AI 3D 生成技术，提供沉浸式的全感官统合训练体验。
 
 项目涵盖 **记忆力、注意力、执行功能、情感认知、创意疗愈** 五大训练维度，共 **8 个 Unity 场景**、**26+ 个 C# 脚本**、**8 份场景制作文档**和完整的用户操作手册。
 
