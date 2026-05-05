@@ -19,24 +19,30 @@ tags: [Unity, C#, AR]
 
 </div>
 
-## 📖 项目简介
+## 📖 项目简介 / Project Introduction
 
+**[中文]**
 "不孤鸟"是一款运行于 **Rokid XR 眼镜**平台的 6DoF AR 应用，面向自闭症儿童认知干预训练。系统基于剑桥 **CANTAB 神经心理学范式**，结合 Rokid 手势识别、千问 ASR 语音识别和 Tripo AI 3D 生成技术，提供沉浸式的全感官统合训练体验。
 
 项目涵盖 **记忆力、注意力、执行功能、情感认知、创意疗愈** 五大训练维度，共 **8 个 Unity 场景**、**26+ 个 C# 脚本**、**8 份场景制作文档**和完整的用户操作手册。
 
+**[English]**
+"NotLonelyBird" is a 6DoF AR application running on the **Rokid XR glasses** platform, specifically designed for cognitive intervention training in children with autism. Based on the Cambridge **CANTAB neuropsychological paradigm**, the system integrates Rokid gesture recognition, Qwen ASR (Automatic Speech Recognition), and Tripo AI 3D generation technology to provide an immersive, multi-sensory integration training experience.
+
+The project covers five major training dimensions: **Memory, Attention, Executive Function, Emotional Cognition, and Creative Healing**. It features a total of **8 Unity scenes**, **26+ C# scripts**, **8 scene production documents**, and a comprehensive user operating manual.
+
 ---
 
-## ✨ 功能模块
+## ✨ 功能模块 / Functional Modules
 
-| 模块 | 场景 | 训练目标 | 核心技术 |
+| 模块 / Module | 场景 / Scene | 训练目标 / Training Objective | 核心技术 / Core Technology |
 |------|------|----------|----------|
-| 🧠 数字广度 | DigitSpan | 瞬时记忆、顺序/逆序复述 | ASR 语音识别 + 按钮双模式答题 |
-| 🔄 N-Back 回溯 | NBack | 空间工作记忆、信息更新 | 3×3 九宫格空间匹配 |
-| 👁️ 快速视觉处理 | RVP | 持续注意力、目标检测 | Rokid 手势识别 + 高频刺激 |
-| 🎯 方向判断 | Direction | 抑制控制、资源分配 | 手掌朝前手势 + 一致/冲突范式 |
-| 😊 情感认知 | Emotion | 情绪识别、社交认知 | 3D 卡通角色微表情动画 |
-| 🎨 虚实绘景 | 3DGenerate | 创意表达、空间认知 | Tripo AI 3D 生成 + AR 画板 |
+| 🧠 **数字广度**<br>*Digit Span* | DigitSpan | **瞬时记忆、顺序/逆序复述**<br>*Instant memory, forward/backward repetition* | ASR 语音识别 + 按钮双模式答题<br>*ASR voice recognition + button dual-mode answering* |
+| 🔄 **N-Back 回溯**<br>*N-Back Memory* | NBack | **空间工作记忆、信息更新**<br>*Spatial working memory, information updating* | 3×3 九宫格空间匹配<br>*3×3 grid spatial matching* |
+| 👁️ **快速视觉处理**<br>*RVP* | RVP | **持续注意力、目标检测**<br>*Sustained attention, target detection* | Rokid 手势识别 + 高频刺激<br>*Rokid gesture recognition + high-frequency stimulation* |
+| 🎯 **方向判断**<br>*Direction Judgment* | Direction | **抑制控制、资源分配**<br>*Inhibitory control, resource allocation* | 手掌朝前手势 + 一致/冲突范式<br>*Palm-forward gesture + congruent/incongruent paradigm* |
+| 😊 **情感认知**<br>*Emotional Cognition* | Emotion | **情绪识别、社交认知**<br>*Emotion recognition, social cognition* | 3D 卡通角色微表情动画<br>*3D cartoon character micro-expression animation* |
+| 🎨 **虚实绘景**<br>*3D Generation Drawing* | 3DGenerate | **创意表达、空间认知**<br>*Creative expression, spatial cognition* | Tripo AI 3D 生成 + AR 画板<br>*Tripo AI 3D generation + AR drawing board* |
 
 ---
 
