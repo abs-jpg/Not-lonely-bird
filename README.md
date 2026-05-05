@@ -56,7 +56,14 @@ The project covers five major training dimensions: **Memory, Attention, Executiv
 动画系统: DOTween Pro + Unity Animator
 数据持久: JSON 本地序列化 (Newtonsoft.Json)
 ```
-
+```
+Operating Environment: YodaOS-Master / UXR 3.0 / XR2 Gen1+
+Interaction: 6DoF Raycast + Gesture Recognition (Pinch / Fist / Palm Forward)
+Speech Recognition: Qwen ASR Model API (16kHz WAV)
+3D Generation: Tripo AI SDK (TextToModel / ImageToModel)
+Animation System: DOTween Pro + Unity Animator
+Data Persistence: Local JSON Serialization (Newtonsoft.Json)
+```
 ---
 
 ## 📁 项目结构
