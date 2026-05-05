@@ -149,70 +149,71 @@ NotLonelyBird/
 
 ---
 
-## 📊 Kiro 使用比例分析
+## 📊 Kiro 使用比例分析 / Kiro Usage Proportion Analysis
 
-本项目大量使用 **Kiro AI IDE** 进行开发，以下为各模块的代码贡献统计：
+**[中文]** 本项目大量使用 **Kiro AI IDE** 进行开发，以下为各模块的代码贡献统计：
+**[English]** This project heavily utilized the **Kiro AI IDE** for development. Below are the code contribution statistics for each module:
 
-### 代码层
+### 代码层 / Code Layer
 
-| 功能模块 | 总代码行数 | Kiro 贡献行数 | Kiro 使用比例 |
+| 功能模块 / Functional Module | 总代码行数 / Total Lines | Kiro 贡献行数 / Kiro Lines | Kiro 使用比例 / Kiro Proportion |
 |----------|-----------|-------------|-------------|
-| 3DGenerate 虚实绘景 | ~439 行 | ~417 行 | 95% |
-| DigitSpan 数字广度 | ~536 行 | ~482 行 | 90% |
-| NBack 回溯记忆 | ~316 行 | ~284 行 | 90% |
-| RVP 快速视觉处理 | ~485 行 | ~461 行 | 95% |
-| Direction 方向判断 | ~305 行 | ~290 行 | 95% |
-| Emotion 情感认知 | ~129 行 | ~116 行 | 90% |
-| Json 通用数据层 | ~124 行 | ~112 行 | 90% |
-| 画板引擎 (AQY) | ~445 行 | ~423 行 | 95% |
-| 通用脚本 | ~106 行 | ~95 行 | 90% |
-| **C# 代码合计** | **~2,885 行** | **~2,680 行** | **92.9%** |
+| 3DGenerate 虚实绘景 (*3D Generation*) | ~439 行 | ~417 行 | 95% |
+| DigitSpan 数字广度 (*Digit Span*) | ~536 行 | ~482 行 | 90% |
+| NBack 回溯记忆 (*N-Back Memory*) | ~316 行 | ~284 行 | 90% |
+| RVP 快速视觉处理 (*Rapid Visual Processing*) | ~485 行 | ~461 行 | 95% |
+| Direction 方向判断 (*Direction Judgment*) | ~305 行 | ~290 行 | 95% |
+| Emotion 情感认知 (*Emotional Cognition*) | ~129 行 | ~116 行 | 90% |
+| Json 通用数据层 (*Universal Data Layer*) | ~124 行 | ~112 行 | 90% |
+| 画板引擎 AQY (*Drawing Engine AQY*) | ~445 行 | ~423 行 | 95% |
+| 通用脚本 (*Universal Scripts*) | ~106 行 | ~95 行 | 90% |
+| **C# 代码合计 / Total C# Code** | **~2,885 行** | **~2,680 行** | **92.9%** |
 
-### 场景搭建层
+### 场景搭建层 / Scene Building Layer
 
-| 场景文件 | YAML 行数 | Kiro 搭建比例 |
+| 场景文件 / Scene File | YAML 行数 / YAML Lines | Kiro 搭建比例 / Kiro Build Proportion |
 |----------|----------|-------------|
 | 3DGenerate.unity | 5,772 行 | 80% |
 | DigitSpan.unity | 4,704 行 | 90% |
 | NBack.unity | 3,406 行 | 85% |
 | Emotion.unity | 2,968 行 | 85% |
-| 主界面.unity | 1,995 行 | 90% |
+| 主界面.unity (*Main Menu*) | 1,995 行 | 90% |
 | RVP.unity | 1,818 行 | 90% |
 | Direction.unity | 1,639 行 | 90% |
 | Load.unity | 813 行 | 90% |
-| **场景合计** | **~23,115 行** | **~87%** |
+| **场景合计 / Total Scenes** | **~23,115 行** | **~87%** |
 
-### 文档层
+### 文档层 / Document Layer
 
-| 文档类型 | 总行数 | Kiro 编写比例 |
+| 文档类型 / Document Type | 总行数 / Total Lines | Kiro 编写比例 / Kiro Writing Proportion |
 |----------|--------|-------------|
-| 8 份场景制作文档 | ~1,650 行 | 100% |
-| 用户操作手册 | ~231 行 | 100% |
-| Spec 需求/设计文档 | ~200 行 | 100% |
-| **文档合计** | **~2,081 行** | **100%** |
+| 8 份场景制作文档 (*8 Scene Docs*) | ~1,650 行 | 100% |
+| 用户操作手册 (*User Manual*) | ~231 行 | 100% |
+| Spec 需求/设计文档 (*Spec Docs*) | ~200 行 | 100% |
+| **文档合计 / Total Docs** | **~2,081 行** | **100%** |
 
-### 总计
+### 总计 / Total Summary
 
-| 类别 | 总行数 | Kiro 贡献行数 | Kiro 使用比例 |
+| 类别 / Category | 总行数 / Total Lines | Kiro 贡献行数 / Kiro Lines | Kiro 使用比例 / Kiro Proportion |
 |------|--------|-------------|-------------|
-| C# 业务逻辑 | ~2,885 行 | ~2,680 行 | 92.9% |
-| Unity 场景 (YAML) | ~23,115 行 | ~20,110 行 | 87.0% |
-| 技术文档 | ~2,081 行 | ~2,081 行 | 100% |
-| **项目总计** | **~28,081 行** | **~24,871 行** | **88.6%** |
+| C# 业务逻辑 (*C# Business Logic*) | ~2,885 行 | ~2,680 行 | 92.9% |
+| Unity 场景 YAML (*Unity Scenes*) | ~23,115 行 | ~20,110 行 | 87.0% |
+| 技术文档 (*Technical Documents*) | ~2,081 行 | ~2,081 行 | 100% |
+| **项目总计 / Project Total** | **~28,081 行** | **~24,871 行** | **88.6%** |
 
 ---
 
-## 🔧 开发环境
+## 🔧 开发环境 / Development Environment
 
-| 项目 | 版本/要求 |
+| 项目 / Item | 版本/要求 / Version/Requirement |
 |------|----------|
-| Unity | 2021.3 LTS+ |
-| .NET | 4.x |
-| Rokid UXR SDK | 3.0 |
-| Tripo AI SDK | Latest |
-| DOTween Pro | 1.x |
-| Newtonsoft.Json | 13.x |
-| 目标设备 | Rokid AR 眼镜 (XR2 Gen1+, 12GB RAM) |
+| **Unity** | 2021.3 LTS+ |
+| **.NET** | 4.x |
+| **Rokid UXR SDK** | 3.0 |
+| **Tripo AI SDK** | Latest |
+| **DOTween Pro** | 1.x |
+| **Newtonsoft.Json** | 13.x |
+| **目标设备 / Target Device** | Rokid AR 眼镜 / Glasses (XR2 Gen1+, 12GB RAM) |
 
 ---
 
@@ -245,24 +246,24 @@ NotLonelyBird/
      7: 3DGenerate
      ```
 
-5. **打包部署**
-   - Platform 切换为 Android
-   - 连接 Rokid 设备，Build and Run
+5. **5. 打包部署 / Build and Deploy**
+- **[中文]** Platform 切换为 Android，连接 Rokid 设备，Build and Run。
+- **[English]** Switch Platform to Android, connect the Rokid device, and select Build and Run.
 
 ---
 
-## 🗺️ 场景导航
+## 🗺️ 场景导航 / Scene Navigation
 
-```
-Load (启动页)
-  └── 主界面
-        ├── 记忆力 → 设置页 → DigitSpan (数字广度)
-        ├── 记忆力 → 设置页 → NBack (N-Back 回溯)
-        ├── 注意力 → 设置页 → RVP (快速视觉处理)
-        ├── 执行功能 → 设置页 → Direction (方向判断)
-        ├── 情感识别 → Emotion (情感认知)
-        ├── 虚实绘景 → 3DGenerate (创意画板)
-        └── 退出应用
+```text
+Load (启动页 / Splash Screen)
+  └── 主界面 (Main Menu)
+        ├── 记忆力 (Memory) → 设置页 (Settings) → DigitSpan (数字广度 / Digit Span)
+        ├── 记忆力 (Memory) → 设置页 (Settings) → NBack (N-Back 回溯 / N-Back Memory)
+        ├── 注意力 (Attention) → 设置页 (Settings) → RVP (快速视觉处理 / Rapid Visual Processing)
+        ├── 执行功能 (Executive) → 设置页 (Settings) → Direction (方向判断 / Direction Judgment)
+        ├── 情感识别 (Emotion) → Emotion (情感认知 / Emotional Cognition)
+        ├── 虚实绘景 (Drawing) → 3DGenerate (创意画板 / 3D AR Board)
+        └── 退出应用 (Exit App)
 ```
 
 ---
