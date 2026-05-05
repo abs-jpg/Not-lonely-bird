@@ -46,7 +46,7 @@ The project covers five major training dimensions: **Memory, Attention, Executiv
 
 ---
 
-## 🏗️ 技术架构
+## 🏗️ 技术架构 / Technical Frame
 
 ```
 运行环境: YodaOS-Master / UXR 3.0 / XR2 Gen1+
@@ -66,56 +66,56 @@ Data Persistence: Local JSON Serialization (Newtonsoft.Json)
 ```
 ---
 
-## 📁 项目结构
+## 📁 项目结构 / Project Structure
 
 ```
 NotLonelyBird/
 ├── Assets/kiro/
-│   ├── Scripts/                          # C# 业务逻辑层
-│   │   ├── 3DGenerate/                   # 🎨 虚实绘景模块          — 95% Kiro 开发
-│   │   │   ├── GlobalUIManager.cs        #    UI 总管单例            — Kiro 编写
-│   │   │   ├── ExternalInputManager.cs   #    ASR 语音识别管理器     — Kiro 编写
-│   │   │   ├── DrawingScreenshotter.cs   #    画板截图生成3D         — Kiro 编写
-│   │   │   └── BordController.cs         #    画板控制器             — Kiro 编写
-│   │   ├── DigitSpan/                    # 🧠 数字广度模块          — 90% Kiro 开发
-│   │   │   ├── MemoryGameManager.cs      #    游戏主控制器           — Kiro 编写
-│   │   │   ├── ASRManager.cs             #    语音识别管理           — Kiro 编写
-│   │   │   ├── MemorySettingsMenu.cs     #    设置菜单               — Kiro 编写
-│   │   │   └── SavWav.cs                 #    WAV 录音保存           — Kiro 编写
-│   │   ├── NBack/                        # 🔄 N-Back 模块           — 90% Kiro 开发
-│   │   │   ├── NBackManager.cs           #    N-Back 主控制器        — Kiro 编写
-│   │   │   ├── NBackSetting.cs           #    设置数据类             — Kiro 编写
-│   │   │   ├── AllSettingCtr.cs          #    全局设置单例           — Kiro 编写
-│   │   │   ├── ScenesChange.cs           #    场景切换               — Kiro 编写
-│   │   │   └── FollowHead.cs            #    头部跟随               — Kiro 编写
-│   │   ├── RVP/                          # 👁️ 快速视觉处理模块      — 95% Kiro 开发
-│   │   │   ├── GestureManager.cs         #    手势管理器             — Kiro 编写
-│   │   │   ├── GestureInputController.cs #    手势输入控制           — Kiro 编写
-│   │   │   ├── RVPSettlementScreen.cs    #    结算界面               — Kiro 编写
-│   │   │   ├── GestureData.cs            #    手势数据定义           — Kiro 编写
-│   │   │   └── GestureAssets/            #    8 个手势 ScriptableObject — Kiro 生成
-│   │   ├── Direction/                    # 🎯 方向判断模块          — 95% Kiro 开发
-│   │   │   ├── DirectionManager.cs       #    方向判断主控制器       — Kiro 编写
-│   │   │   └── DirectionSettings.cs      #    设置数据类             — Kiro 编写
-│   │   ├── Emotion/                      # 😊 情感认知模块          — 90% Kiro 开发
-│   │   │   └── EmotionTestController.cs  #    情感测试控制器         — Kiro 编写
-│   │   ├── Json/                         # 📦 通用数据层            — 90% Kiro 开发
-│   │   │   ├── JsonNetDataService.cs     #    JSON 序列化服务        — Kiro 编写
-│   │   │   └── SettlementScreen.cs       #    通用结算界面           — Kiro 编写
-│   │   ├── BirdStart.cs                  #    启动页控制器           — Kiro 编写
-│   │   └── InfiniteScrollPanel.cs        #    无限滚动面板           — Kiro 编写
+│   ├── Scripts/                          # C# Business Logic Layer
+│   │   ├── 3DGenerate/                   # 🎨 3D Generation Drawing Module   — 95% Kiro developed
+│   │   │   ├── GlobalUIManager.cs        #    UI Manager Singleton           — Written by Kiro
+│   │   │   ├── ExternalInputManager.cs   #    ASR Voice Recognition Manager  — Written by Kiro
+│   │   │   ├── DrawingScreenshotter.cs   #    Drawing Board Screenshot to 3D — Written by Kiro
+│   │   │   └── BordController.cs         #    Drawing Board Controller       — Written by Kiro
+│   │   ├── DigitSpan/                    # 🧠 Digit Span Module              — 90% Kiro developed
+│   │   │   ├── MemoryGameManager.cs      #    Main Game Controller           — Written by Kiro
+│   │   │   ├── ASRManager.cs             #    Voice Recognition Manager      — Written by Kiro
+│   │   │   ├── MemorySettingsMenu.cs     #    Settings Menu                  — Written by Kiro
+│   │   │   └── SavWav.cs                 #    WAV Audio Recording Saving     — Written by Kiro
+│   │   ├── NBack/                        # 🔄 N-Back Module                  — 90% Kiro developed
+│   │   │   ├── NBackManager.cs           #    N-Back Main Controller         — Written by Kiro
+│   │   │   ├── NBackSetting.cs           #    Settings Data Class            — Written by Kiro
+│   │   │   ├── AllSettingCtr.cs          #    Global Settings Singleton      — Written by Kiro
+│   │   │   ├── ScenesChange.cs           #    Scene Transition               — Written by Kiro
+│   │   │   └── FollowHead.cs             #    Head Tracking                  — Written by Kiro
+│   │   ├── RVP/                          # 👁️ Rapid Visual Processing Module — 95% Kiro developed
+│   │   │   ├── GestureManager.cs         #    Gesture Manager                — Written by Kiro
+│   │   │   ├── GestureInputController.cs #    Gesture Input Controller       — Written by Kiro
+│   │   │   ├── RVPSettlementScreen.cs    #    Settlement Screen              — Written by Kiro
+│   │   │   ├── GestureData.cs            #    Gesture Data Definition        — Written by Kiro
+│   │   │   └── GestureAssets/            #    8 Gesture ScriptableObjects    — Generated by Kiro
+│   │   ├── Direction/                    # 🎯 Direction Judgment Module      — 95% Kiro developed
+│   │   │   ├── DirectionManager.cs       #    Direction Main Controller      — Written by Kiro
+│   │   │   └── DirectionSettings.cs      #    Settings Data Class            — Written by Kiro
+│   │   ├── Emotion/                      # 😊 Emotional Cognition Module     — 90% Kiro developed
+│   │   │   └── EmotionTestController.cs  #    Emotion Test Controller        — Written by Kiro
+│   │   ├── Json/                         # 📦 Universal Data Layer           — 90% Kiro developed
+│   │   │   ├── JsonNetDataService.cs     #    JSON Serialization Service     — Written by Kiro
+│   │   │   └── SettlementScreen.cs       #    Universal Settlement Screen    — Written by Kiro
+│   │   ├── BirdStart.cs                  #    Splash Screen Controller       — Written by Kiro
+│   │   └── InfiniteScrollPanel.cs        #    Infinite Scroll Panel          — Written by Kiro
 │   │
-│   ├── *.unity (×8)                      # 🎬 Unity 场景文件        — 85% Kiro 搭建
-│   │   ├── Load.unity                    #    启动加载场景
-│   │   ├── 主界面.unity                   #    主界面场景
-│   │   ├── DigitSpan.unity               #    数字广度场景
-│   │   ├── NBack.unity                   #    N-Back 场景
-│   │   ├── RVP.unity                     #    快速视觉处理场景
-│   │   ├── Direction.unity               #    方向判断场景
-│   │   ├── Emotion.unity                 #    情感认知场景
-│   │   └── 3DGenerate.unity              #    虚实绘景场景
+│   ├── *.unity (×8)                      # 🎬 Unity Scene Files              — 85% Built by Kiro
+│   │   ├── Load.unity                    #    Splash Load Scene
+│   │   ├── 主界面.unity                    #    Main Menu Scene
+│   │   ├── DigitSpan.unity               #    Digit Span Scene
+│   │   ├── NBack.unity                   #    N-Back Scene
+│   │   ├── RVP.unity                     #    Rapid Visual Processing Scene
+│   │   ├── Direction.unity               #    Direction Judgment Scene
+│   │   ├── Emotion.unity                 #    Emotional Cognition Scene
+│   │   └── 3DGenerate.unity              #    3D Generation Drawing Scene
 │   │
-│   ├── doc/                              # 📝 场景制作文档          — 100% Kiro 编写
+│   ├── doc/                              # 📝 Scene Production Docs          — 100% Written by Kiro
 │   │   ├── Load场景制作文档.md
 │   │   ├── 主界面场景制作文档.md
 │   │   ├── DigitSpan场景制作文档.md
@@ -125,26 +125,26 @@ NotLonelyBird/
 │   │   ├── Emotion场景制作文档.md
 │   │   └── 3DGenerate场景制作文档.md
 │   │
-│   ├── 操作手册/                          # 📘 用户操作手册          — 100% Kiro 编写
+│   ├── 操作手册/                          # 📘 User Operating Manual          — 100% Written by Kiro
 │   │   └── 不孤鸟操作手册.md
 │   │
-│   ├── Prefabs/                          # 🧩 预制体
-│   │   ├── 画板预制体.prefab             #    AR 绘画画板
-│   │   ├── 画笔.prefab                   #    画笔工具
-│   │   ├── 星星.prefab                   #    情感角色
-│   │   ├── RVP图像.prefab               #    手势图片容器
-│   │   └── ProgressBarAuto_RoundOutline  #    进度条
+│   ├── Prefabs/                          # 🧩 Prefabs
+│   │   ├── 画板预制体.prefab               #    AR Drawing Board
+│   │   ├── 画笔.prefab                    #    Brush Tool
+│   │   ├── 星星.prefab                    #    Emotion Character
+│   │   ├── RVP图像.prefab                 #    Gesture Image Container
+│   │   └── ProgressBarAuto_RoundOutline  #    Progress Bar
 │   │
-│   ├── ART/                              # 🎨 美术资源
-│   ├── Font/                             # 🔤 字体资源
-│   ├── Voice/                            # 🔊 语音提示音频
-│   └── 0-9audio/                         # 🔢 数字音频 (0-9 + 提示音)
+│   ├── ART/                              # 🎨 Art Resources
+│   ├── Font/                             # 🔤 Font Resources
+│   ├── Voice/                            # 🔊 Voice Prompt Audio
+│   └── 0-9audio/                         # 🔢 Number Audio (0-9 + Prompts)
 │
-├── Assets/AQY/Scripts/画板/               # 🖌️ 画板核心脚本
-│   ├── DrawingBoard.cs                   #    画板绘图引擎 (410行)   — Kiro 编写
-│   └── DrawingActions.cs                 #    绘图操作定义           — Kiro 编写
+├── Assets/AQY/Scripts/画板/                # 🖌️ Drawing Board Core Scripts
+│   ├── DrawingBoard.cs                   #    Drawing Engine (410 lines)     — Written by Kiro
+│   └── DrawingActions.cs                 #    Drawing Actions Definition     — Written by Kiro
 │
-└── Assets/Plugins/Demigiant/             # 📦 DOTween Pro 动画插件
+└── Assets/Plugins/Demigiant/             # 📦 DOTween Pro Animation Plugin
 ```
 
 ---
